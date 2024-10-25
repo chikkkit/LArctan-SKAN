@@ -1,0 +1,7 @@
+numpy==2.1.2
+pandas==2.2.3
+scikit_learn==1.5.2
+single_kan==0.2.0
+torch==2.4.1+cu121
+torchvision==0.19.1+cu121
+tqdm==4.66.4
