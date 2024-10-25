@@ -1,12 +1,15 @@
 # LSS-SKAN
 <p align="center"><b>English</b> / <a href="https://github.com/chikkkit/LArctan-SKAN/blob/main/README_zh.md">简体中文</a></p>
 
-## Notice
-This repository contains the experimental code for the paper *LArctan-SKAN: Simple and Efficient Single-Parameterized Kolmogorov-Arnold Networks using Learnable Trigonometric Function*. **If you're looking for a Python library to quickly build SKAN, please visit the [SKAN library GitHub repository](https://github.com/chikkkit/SKAN).**
+## Introduction
+This repository contains the experimental code for the paper "LArctan-SKAN: Simple and Efficient Single-Parameterized Kolmogorov-Arnold Networks using Learnable Trigonometric Function." **If you are looking for a Python library to quickly build SKANs, please click [here](https://github.com/chikkkit/SKAN) to visit the SKAN GitHub repository.**
+
 
 ## Usage
-This code is designed to run on Python 3.12.3. To use this repository, make sure you have the following Python libraries installed:
-```
+This code runs on Python 3.12.3. To use the library, ensure that the following Python packages are installed:
+
+
+```python
 numpy==2.1.2
 pandas==2.2.3
 scikit_learn==1.5.2
@@ -15,8 +18,14 @@ torch==2.4.1+cu121
 torchvision==0.19.1+cu121
 tqdm==4.66.4
 ```
-Then, run the code by executing the following script:
-```
+
+To execute the experiment in the paper, run the following script:
+
+```bash
 python LArctan_SKAN_30epoch_lr000101.py
 ```
-This will initiate the experiment as described in the paper. Please note that the experimental results can vary depending on the hardware specifications, particularly the GPU memory size.
+This will run the experimental setup described in the paper. Note that this repository only includes code for the LSS-SKAN, LSin-SKAN, LCos-SKAN, and LArctan-SKAN networks. For other networks, refer to the GitHub repository [LSS-SKAN](https://github.com/chikkkit/LSS-SKAN) and the file [LSS_SKAN_30epoch_lr000101.py](https://github.com/chikkkit/LSS-SKAN/blob/main/LSS_SKAN_30epoch_lr000101.py).
+
+
+## References
+[1] LArctan-SKAN: Simple and Efficient Single-Parameterized Kolmogorov-Arnold Networks using Learnable Trigonometric Function
