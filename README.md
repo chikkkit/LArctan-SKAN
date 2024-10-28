@@ -2,7 +2,7 @@
 <p align="center"><b>English</b> / <a href="https://github.com/chikkkit/LArctan-SKAN/blob/main/README_zh.md">简体中文</a></p>
 
 ## Introduction
-This repository contains the experimental code for the paper "LArctan-SKAN: Simple and Efficient Single-Parameterized Kolmogorov-Arnold Networks using Learnable Trigonometric Function." **If you are looking for a Python library to quickly build SKANs, please click [here](https://github.com/chikkkit/SKAN) to visit the SKAN GitHub repository.**
+This repository contains the experimental code for the paper ["LArctan-SKAN: Simple and Efficient Single-Parameterized Kolmogorov-Arnold Networks using Learnable Trigonometric Function."](https://arxiv.org/abs/2410.14951) [1] **If you are looking for a Python library to quickly build SKANs, please click [here](https://github.com/chikkkit/SKAN) to visit the SKAN GitHub repository.**
 
 
 ## Usage
@@ -28,4 +28,4 @@ This will run the experimental setup described in the paper. Note that this repo
 
 
 ## References
-[1] LArctan-SKAN: Simple and Efficient Single-Parameterized Kolmogorov-Arnold Networks using Learnable Trigonometric Function
+[1] Z. Chen and X. Zhang, “LSS-SKAN: Efficient Kolmogorov-Arnold Networks based on Single-Parameterized Function,” Oct. 19, 2024, arXiv: arXiv:2410.14951. doi: 10.48550/arXiv.2410.14951.
