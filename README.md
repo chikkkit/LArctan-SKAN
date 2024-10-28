@@ -1,4 +1,4 @@
-# LSS-SKAN
+# LArctan-SKAN
 <p align="center"><b>English</b> / <a href="https://github.com/chikkkit/LArctan-SKAN/blob/main/README_zh.md">简体中文</a></p>
 
 ## Introduction
